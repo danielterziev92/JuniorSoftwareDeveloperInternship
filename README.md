@@ -1,1 +1,1 @@
-# JuniorSoftwareDeveloperInternship
+I'm sharing interview tasks I've received from various companies in dedicated repositories. Each repository corresponds to a specific company, and within each repository, you'll find folders containing the respective tasks.

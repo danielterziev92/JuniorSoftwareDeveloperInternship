@@ -1,13 +1,14 @@
-### As an aspiring Python developer, I successfully completed a task to extract dates from a given text. Leveraging regular expressions, I created a script to identify and capture dates in various formats within the text. The task involved handling date formats such as "YYYY-MM-DD," "YYYY/MM/DD," month names, and ordinal numbers.
+# Condition:
 
-### Key Achievements:
+### Write a Python script that extracts all dates from the text bellow:
 
-* Implemented a Python script to extract dates from a diverse text sample.
-* Utilized regular expressions to accommodate different date formats and variations.
-* Successfully captured dates expressed in digits, month names, and ordinal numbers.
-* Ensured flexibility in handling dates with and without specific times.
-
-### Technologies and Tools Used:
-
-* Python
-* Regular Expressions
+<pre>
+Hi,
+my name is Jane and my phone number is 555-123-4567.
+My email address is jane_doe@example.com.
+I live on 123 Main St. Apt. #456, and I was born on January 11th, 1990. I have an appointment on 2023-05-15 at 2:30pm at
+789 Oak Ln. #3 and backup on 2023/05/21.
+Please give me a call or send me an email to confirm. In case the dates are unavailable, please set up a meeting
+sometime in June. I would love June 19h.
+Thank you!
+</pre>

@@ -1,13 +1,17 @@
-#### In this task, I created a Python script leveraging web scraping libraries, specifically utilizing requests to fetch the HTML content and BeautifulSoup to parse and extract data. The target webpage was 'https://en.wikipedia.org/wiki/List_of_European_Union_member_states_by_population'.
+# Condition:
 
-Upon accessing the webpage, the script identified and extracted data from the table named "List of European Union member
-states by population." This table contains information about European Union member states, including columns for '
-Country' and 'Official figure.'
+Using libraries by your choice (hint - requests & BeautifulSoup4 libraries should do the job) write a Python script
+that:
 
-Upon accessing the webpage, the script identified and extracted data from the table named "List of European Union member
-states by population." This table contains information about European Union member states, including columns for '
-Country' and 'Official figure.'
+* Opens the following webpage: 'https://en.wikipedia.org/wiki/List_of_European_Union_member_states_by_population'
 
+* Extracts the data_rows from the table named "List of European Union member states by population"
+
+* Using values from columns 'Country' and 'Official figure' it should create a countries_dictionary variable with a
+  structure:
+  {country1:{'population': official figure1}, country2:{'population': official figure2}, etc.}
+
+for example
 <pre>
 {
     'Germany': {
@@ -22,9 +26,24 @@ Country' and 'Official figure.'
 }
 </pre>
 
-To enhance the dictionary, I calculated the total population across all countries and then determined the percentage of
-each country's population relative to the total. These country population percentages were added to the corresponding
-entries in the countries_dictionary under the key 'country_population_percentage.'
+* Sums country_population values for all countries in the dictionary to get the total_country_population and calculates
+  for each country its country_population_percentage from the total_country_population;
 
-Finally, the script printed the resulting countries_dictionary, showcasing detailed information about each country,
-including both population and population percentage.
+then adds this country_population_percentage to the countries_dictionary;
+finally prints the countries_dictionary and it should look similar to:
+<pre>
+{ 
+    'Germany': {
+        'country_population': 83237124,
+        'country_population_percentage': 18.5
+    },
+    'France': {
+        'country_population': 67874000,
+        'country_population_percentage': 15
+    },
+    'Italy': {
+        'country_population': 58906742,
+        'country_population_percentage': 13.3 
+    },
+}
+</pre>

@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from task1.solution import get_all_date, get_text_from_file
+from solution import get_all_date, get_text_from_file
 
 
 class TestTask1(TestCase):

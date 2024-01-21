@@ -12,3 +12,29 @@ Please give me a call or send me an email to confirm. In case the dates are unav
 sometime in June. I would love June 19h.
 Thank you!
 </pre>
+
+# Usage:
+
+1. **Download the Project:**
+
+```bash
+git clone https://github.com/danielterziev92/JuniorSoftwareDeveloperInternship.git
+```
+
+2. **Open the Project:**
+
+```bash
+cd '.../InternetSecuritiesBulgaria/task1'
+```
+
+3. **Run the solution**
+
+```bash
+python3 solution.py
+```
+
+4. **Run Tests**
+
+```bash
+python3 -m unittest -v tests
+```
